@@ -1,0 +1,65 @@
+:root {
+  --emerald: #61d095ff;
+  --emerald-dark: #2c7a7dff;
+  --xanthous: #f4b94fff;
+  --xanthous-dark: #c07f2dff;
+  --silver-lake-blue: #5688c7ff;
+  --silver-lake-blue-dark: #2e4a7aff;
+  --fire-brick: #ab3428;
+  --oxford-blue: #020e29ff;
+  --rich-black: #010714ff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--rich-black);
+  color: var(--silver-lake-blue);
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (width > 880px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p,
+li {
+  font-size: 1.1rem;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  display: grid;
+  gap: 20px;
+
+  @media screen and (width > 880px) {
+    width: 800px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+footer {
+  width: 100%;
+  display: grid;
+
+  @media screen and (width > 880px) {
+    width: 800px;
+    grid-template-columns: 1fr 1fr;
+  }
+}

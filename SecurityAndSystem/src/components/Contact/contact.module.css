@@ -1,0 +1,79 @@
+.contact {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact form label {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.contact form input,
+.contact form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--silver-lake-blue);
+  padding: 10px;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  border-bottom: 2px solid var(--emerald);
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: var(--silver-lake-blue-dark);
+}
+
+.contact form input {
+  width: 100%;
+}
+
+.contact form textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Error Style */
+.errorContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.errorContainer p {
+  color: var(--fire-brick);
+}
+
+.error {
+  cursor: pointer;
+}
+
+/* Success Style */
+.successContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.successContainer p {
+  color: var(--emerald);
+}

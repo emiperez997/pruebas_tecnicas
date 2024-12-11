@@ -4,13 +4,13 @@
 
 Debes crear una aplicación web que permita a los usuarios responder una encuesta con preguntas y valoraciones del 1 al 5. El listado de preguntas será cargado desde un JSON mockeado. La aplicación debe cumplir con los siguientes requisitos:
 
-- [ ] Mostrar una pregunta a la vez, con sus opciones de valoración del 1 al 5.
-- [ ] Permitir al usuario seleccionar una valoración para cada pregunta.
-- [ ] Mostrar la siguiente pregunta después de que el usuario haya respondido la actual.
-- [ ] Al finalizar la encuesta, mostrar un resumen con las respuestas del usuario.
-- [ ] Requisitos técnicos:
-- [ ] Utiliza React para construir la aplicación.
-- [ ] Para el CSS utilizar algún framework como Bootstrap o Material-UI.
+- [ x ] Mostrar una pregunta a la vez, con sus opciones de valoración del 1 al 5.
+- [ x ] Permitir al usuario seleccionar una valoración para cada pregunta.
+- [ x ] Mostrar la siguiente pregunta después de que el usuario haya respondido la actual.
+- [ x ] Al finalizar la encuesta, mostrar un resumen con las respuestas del usuario.
+- [ x ] Requisitos técnicos:
+- [ x ] Utiliza React para construir la aplicación.
+- [ x ] Para el CSS utilizar algún framework como Bootstrap o Material-UI.
 
 ## Entrega:
 

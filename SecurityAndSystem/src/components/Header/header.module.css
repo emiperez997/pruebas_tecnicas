@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+
+  @media screen and (width > 880px) {
+    flex-direction: row;
+    width: 800px;
+    height: 200px;
+    gap: 20px;
+  }
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--xanthous);
+  border-radius: 50%;
+  overflow: hidden;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatarImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  text-align: center;
+  font-size: 2rem;
+
+  @media screen and (width > 880px) {
+    font-size: 2rem;
+  }
+}
+
+.name small {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
